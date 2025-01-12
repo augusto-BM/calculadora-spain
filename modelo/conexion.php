@@ -1,9 +1,9 @@
 <?php
 
-$host = 'localhost:8080';
-$usuario = 'root';
+$host = '';
+$usuario = '';
 $contrasena = ''; 
-$base_de_datos = 'jbgopera_jbgimfca';
+$base_de_datos = '';
 
 //La variable "conn" permitirá crear una conexión con nnuestra BD.
 $conn = mysqli_connect($host,$usuario,$contrasena,$base_de_datos);
