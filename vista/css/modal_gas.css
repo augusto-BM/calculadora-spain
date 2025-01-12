@@ -1,0 +1,28 @@
+.resultado_gas{
+    border: none;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:60%;
+}
+.cliente_paga_gas{
+    border: none;
+}
+
+.cliente_paga_gas:focus{
+    border: none;
+    outline: none;
+
+}
+.resultado_gas:focus{
+    outline: none;
+}
+
+.subt_gas{
+    font-size: 11.4px;
+}
+
+.resultadoDiv_gas{
+    margin-top: 40px !important;
+}

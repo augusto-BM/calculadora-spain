@@ -1,0 +1,49 @@
+
+.contenedor{
+    text-align: center;
+}
+
+.titulo-principal{
+
+    text-align: left !important;
+    margin-left: 30px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+.card__items {
+    width: 300px;
+    height: 120px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.card__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+.calculator {
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+
+td, th {
+    border: 1px ridge gainsboro !important; /* Aquí defines el grosor y color del borde */
+  }

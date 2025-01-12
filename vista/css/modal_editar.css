@@ -1,0 +1,22 @@
+form div div label{
+    font-size: 13px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+form div div input{
+    text-align: center;
+    border: none !important;
+    width: 100%;
+    border: none;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+.separador_editar{
+    margin-top: 20px !important;
+}
+
+.btn-editar:hover{
+    background-color: #233446 !important;
+}

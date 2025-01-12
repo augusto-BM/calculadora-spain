@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family:'Times New Roman', Times, serif
+}
+.precio-punta{
+    border-radius: 10px;
+}
+.precio-punta label{
+    font-size: 12px;
+}
+
+.precio-punta input{
+    height: 20px;
+    font-size: 12px;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+
+/* ********* ESTILO TABLAS ********** */
+.d-flex {
+    display: flex;
+    justify-content: center;
+    /* Centrado horizontal */
+    align-items: center;
+    /* Centrado vertical */
+}
+
+.align-middle {
+    vertical-align: middle !important;
+    /* Asegura que el contenido de las celdas con rowspan se centre verticalmente */
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #000;
+    /* Borde de la tabla */
+    text-align: center;
+}
+
+.table-info {
+    background-color: #d1ecf1;
+    /* Color de fondo de la fila de encabezado */
+}
+
+fieldset,
+legend {
+    all: revert;
+}
+/* ********* *********** ********** */
+
+.termino{
+    font-size: 12px;
+/*     background-color: #65CD4A !important;
+ */    letter-spacing: 2px;
+
+}
+
+.precios{
+    width:90%;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    letter-spacing: 2px;
+
+}
+
+.precios:focus {
+    outline: none; 
+    box-shadow: 0 0 5px rgba(203, 203, 203, 0.5);
+}
+.valor{
+    padding: 0px;
+    font-size: 12px;
+
+}
+.subt{
+    font-size: 1.5px;
+    padding: 5px 5px !important;
+}
+
+.subt2{
+    font-size: 13px !important;
+}
+
+.dia{
+    width: 50px !important;
+    border: none;
+}
+.dia:focus{
+    border: none;
+    outline: none;
+}
+
+.resultado_factura_sin_impuestos, .resultado_factura_con_impuestos{
+    border: none;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:25%;
+    font-weight: bolder;
+}
+.resultado_factura_sin_impuestos, .resultado_factura_con_impuestos:focus{
+    outline: none;
+}
+
+.th_resultado{
+    font-size: 13px;
+}
+
+.cliente_totalp{
+    width:90%;
+    border: none;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.cliente_totalp:focus{
+    outline: none;
+}
+
+.mostrar{
+    font-size: 12px;
+    width:50px;
+    border: none;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.mostrar:focus{
+    outline: none;
+}
+
+.cliente_factura_actual{
+    border: none;
+    outline: none;
+}
+
